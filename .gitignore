@@ -1,0 +1,48 @@
+# Build output
+*.o
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.order
+*.symvers
+*.a
+*.so
+*.elf
+*.bin
+*.img
+
+# Kernel module build files
+.tmp_versions/
+Module.symvers
+modules.order
+*.ur-safe
+
+# Executables
+*.out
+*.exe
+test
+main
+
+# Logs
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CMake / Make build dirs
+build/
+out/
+dist/
+
+# Backup files
+*.bak
+*.tmp
